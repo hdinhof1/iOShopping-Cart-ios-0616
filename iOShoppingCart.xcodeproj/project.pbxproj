@@ -22,6 +22,7 @@
 		7265877C19DDB04C0069AC7C /* FISItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7265877A19DDB04C0069AC7C /* FISItem.m */; };
 		72F7EAC9191D2CA3000D6B27 /* FISShoppingCartSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F7EAC7191D2CA3000D6B27 /* FISShoppingCartSpec.m */; };
 		72F7EACA191D2CA3000D6B27 /* FISItemSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F7EAC8191D2CA3000D6B27 /* FISItemSpec.m */; };
+		BAF256591D08CB480091B9AB /* FISShoppingCart.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF256581D08CB480091B9AB /* FISShoppingCart.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		72F7EAC7191D2CA3000D6B27 /* FISShoppingCartSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISShoppingCartSpec.m; sourceTree = "<group>"; };
 		72F7EAC8191D2CA3000D6B27 /* FISItemSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISItemSpec.m; sourceTree = "<group>"; };
 		89DAF83EF1D14C9F0D2FD05F /* Pods-iOShoppingCartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOShoppingCartTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOShoppingCartTests/Pods-iOShoppingCartTests.release.xcconfig"; sourceTree = "<group>"; };
+		BAF256571D08CB480091B9AB /* FISShoppingCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISShoppingCart.h; sourceTree = "<group>"; };
+		BAF256581D08CB480091B9AB /* FISShoppingCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISShoppingCart.m; sourceTree = "<group>"; };
 		CFDFDDB4CF8047378A467E83 /* libPods-iOShoppingCartTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOShoppingCartTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D072E3863BEC3A6F9930C931 /* Pods-iOShoppingCartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOShoppingCartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOShoppingCartTests/Pods-iOShoppingCartTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,6 +122,8 @@
 		725C3285191BEA500050AE4C /* iOShoppingCart */ = {
 			isa = PBXGroup;
 			children = (
+				BAF256571D08CB480091B9AB /* FISShoppingCart.h */,
+				BAF256581D08CB480091B9AB /* FISShoppingCart.m */,
 				725C328E191BEA500050AE4C /* FISAppDelegate.h */,
 				725C328F191BEA500050AE4C /* FISAppDelegate.m */,
 				7265877919DDB04C0069AC7C /* FISItem.h */,
@@ -315,6 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAF256591D08CB480091B9AB /* FISShoppingCart.m in Sources */,
 				725C328C191BEA500050AE4C /* main.m in Sources */,
 				7265877C19DDB04C0069AC7C /* FISItem.m in Sources */,
 				725C3290191BEA500050AE4C /* FISAppDelegate.m in Sources */,
